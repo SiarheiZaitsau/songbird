@@ -9,3 +9,9 @@ export const addData = (item) => ({
     species: item.species,
   },
 });
+export const addQuestions = (questions) => ({
+  type: "ADD_QUESTION",
+  payload: {
+    questions,
+  },
+});
